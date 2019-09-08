@@ -17,6 +17,7 @@ defmodule LoveWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :index
+    get "/yay", PageController, :index
   end
 
   # Other scopes may use custom stacks.

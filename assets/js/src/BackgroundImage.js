@@ -1,12 +1,11 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Container from 'react-bootstrap/Container';
 
-const BackgroundImage = (props) => {
-  const { children, src } = props;
+const BackgroundImage = ({ children, src }) => {
   const style = {
     background: `url(${src}) no-repeat center center fixed`,
     backgroundSize: 'cover',
-    // background: `red`,
   };
 
   const DivWithBackground = (innerProps) => {
@@ -19,6 +18,10 @@ const BackgroundImage = (props) => {
       { children }
     </Container>
   );
+};
+
+BackgroundImage.propTypes = {
+  src: PropTypes.string.isRequired,
 };
 
 export default BackgroundImage;

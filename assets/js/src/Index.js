@@ -1,23 +1,17 @@
-import React, { useState } from 'react';
-import Button from 'react-bootstrap/Button';
-import Jumbotron from 'react-bootstrap/Jumbotron';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Toast from 'react-bootstrap/Toast';
-import Container from 'react-bootstrap/Container';
-import BackgroundImage from './BackgroundImage';
+import React from 'react';
 
-function App() {
+import Header from './Header';
+import Place from './Place';
+import Venues from './Venues';
+
+const Index = () => {
   return (
-    <BackgroundImage src="/images/wed1.jpg">
-      <Container>
-        <Row>
-          <Col>
-          </Col>
-        </Row>
-      </Container>
-    </BackgroundImage>
+    <>
+      <Header />
+      <Place />
+      <Venues />
+    </>
   );
 }
 
-export default App;
+export default Index;

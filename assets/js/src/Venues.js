@@ -5,26 +5,29 @@ import Card from 'react-bootstrap/Card';
 import Image from 'react-bootstrap/Image';
 import Container from 'react-bootstrap/Container';
 
+import Event from './Event';
 
 const Venues = () => {
   return (
-    <Container>
+    <Container className="kruszcz-body center kruszcz-container">
       <Row>
         <Col>
-          <Card>
-            <Card.Body>
-              <Card.Title>Kolacja</Card.Title>
-              <Card.Text>10 Stycznia 2020</Card.Text>
-            </Card.Body>
-          </Card>
+          <Event
+            iconSrc="/icons/table.svg" 
+            header="Kolacja"
+            text="Art Bistro"
+            date="10 Stycznia 2020"
+          />
         </Col>
+      </Row>
+      <Row>
         <Col>
-          <Card>
-            <Card.Body>
-              <Card.Title>Przyjęcie</Card.Title>
-              <Card.Text>11 Stycznia 2020</Card.Text>
-            </Card.Body>
-          </Card>
+          <Event
+            iconSrc="/icons/drink.svg"
+            header="Przyjęcie"
+            text="Studio Bajka"
+            date="11 Stycznia 2020"
+          />
         </Col>
       </Row>
     </Container>

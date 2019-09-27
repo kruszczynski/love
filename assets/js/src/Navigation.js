@@ -7,23 +7,13 @@ import { NavLink } from 'react-router-dom';
 const Navigation = () => {
   return (
     <Container>
-      <Navbar>
+      <Navbar className="kruszcz-nav">
         <Nav
           fill
         >
           <Nav.Item>
             <Nav.Link as={NavLink} exact to="/">
               Wesele
-            </Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link as={NavLink} exact to="/kolacja">
-              Kolacja
-            </Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link as={NavLink} exact to="/przyjecie">
-              Przyjęcie
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>

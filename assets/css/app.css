@@ -1,3 +1,36 @@
 /* This file is for your main application css. */
 
 @import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,700|Proza+Libre:400,700&display=swap&subset=latin-ext');
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+} 
+
+body {
+  font-family: 'Proza Libre', sans-serif;
+}
+
+.kruszcz-header {
+  font-family: 'Cormorant Garamond', serif;
+  color: black;
+  text-align: center;
+}
+
+.kruszcz-header .row {
+  padding: 4rem 0;
+}
+
+.kruszcz-body.center {
+  text-align: center;
+}
+
+.kruszcz-icon {
+  display: block;
+  width: 10rem;
+  margin: 2rem auto;
+}

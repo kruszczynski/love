@@ -6,7 +6,7 @@ import BackgroundImage from './BackgroundImage';
 
 const Header = () => {
   return (
-    <BackgroundImage src="/images/wed1.jpg">
+    <BackgroundImage src="/images/love1.jpg">
       <Container className="kruszcz-header">
         <Row>
           <Col>

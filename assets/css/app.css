@@ -17,16 +17,17 @@ body {
 
 .kruszcz-header {
   font-family: 'Cormorant Garamond', serif;
-  color: black;
+  color: white;
   text-align: center;
 }
 
 .kruszcz-header .row {
-  padding: 4rem 0;
+  padding: 36rem 0 4rem;
 }
 
 .kruszcz-body.center {
   text-align: center;
+  padding: 2rem 0;
 }
 
 .kruszcz-icon {

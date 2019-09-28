@@ -11,7 +11,6 @@ const Przyjecie = () => <h2>Przyjecie</h2>;
 function App() {
   return (
     <Router>
-      <Navigation />
       <Route path="/" exact component={Index} />
       <Route path="/kolacja" exact component={Kolacja} />
       <Route path="/przyjecie" exact component={Przyjecie} />

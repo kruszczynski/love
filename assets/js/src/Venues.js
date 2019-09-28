@@ -9,8 +9,8 @@ import Event from './Event';
 
 const Venues = () => {
   return (
-    <Container className="kruszcz-body center kruszcz-container">
-      <Row>
+    <Container>
+      <Row className="kruszcz-body center kruszcz-container">
         <Col>
           <Event
             iconSrc="/icons/table.svg" 
@@ -20,7 +20,7 @@ const Venues = () => {
           />
         </Col>
       </Row>
-      <Row>
+      <Row className="kruszcz-body center kruszcz-container">
         <Col>
           <Event
             iconSrc="/icons/drink.svg"

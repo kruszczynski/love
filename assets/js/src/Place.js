@@ -8,8 +8,8 @@ import Event from './Event';
 
 const Place = () => {
   return (
-    <Container className="kruszcz-container kruszcz-body center">
-      <Row>
+    <Container>
+      <Row className="kruszcz-container kruszcz-body center">
         <Col>
           <Event
             iconSrc="./icons/wedding.svg"

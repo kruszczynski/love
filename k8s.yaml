@@ -1,0 +1,45 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: love
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: love
+  template:
+    metadata:
+      labels:
+        app: love
+    spec:
+      containers:
+      - name: love
+        image: docker.pkg.github.com/kruszczynski/love/app:0.3
+        ports:
+        - containerPort: 4000
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: love-service
+spec:
+  ports:
+  - port: 80
+    targetPort: 4000
+    protocol: TCP
+    name: http
+  selector:
+    app: love
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: love-ingress
+spec:
+  rules:
+  - host: www.kruszczykovelove.pl
+    http:
+      paths:
+      - backend:
+          serviceName: love-service
+          servicePort: 80

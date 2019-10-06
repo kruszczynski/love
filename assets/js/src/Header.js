@@ -10,7 +10,7 @@ const Header = () => {
       <Container className="kruszcz-header">
         <Row>
           <Col>
-            <h1>Kruszczykowe Love</h1>
+            <h1>Kruszczykovelove</h1>
             <h2>Zuzanna Borowiecka i Bartek Kruszczyński</h2>
             <h2>Zapraszają na swój ślub!</h2>
           </Col>

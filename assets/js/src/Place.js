@@ -19,6 +19,17 @@ const Place = () => {
           />
         </Col>
       </Row>
+      <Row>
+        <Col md={{ span: 6, offset: 3 }}>
+          <p>
+            Będzie nam bardzo miło widzieć Was na naszej ceremonii
+            ślubnej w Pałacu Ślubów na Pl. Zamkowym 6 w Warszawie.
+            Ceremonia odbędzie się w sali na 2 piętrze.
+            Prosimy nie przyjeżdżajcie autem, przy Zamku nie da się
+            zaparkować.
+          </p>
+        </Col>
+      </Row>
     </Container>
   );
 };

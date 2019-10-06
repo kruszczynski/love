@@ -14,10 +14,23 @@ const Venues = () => {
         <Col>
           <Event
             iconSrc="/icons/table.svg" 
-            header="Kolacja"
+            header="Obiad"
             text="Art Bistro"
-            date="10 Stycznia 2020"
+            date="10 Stycznia 2020 około 15:30"
           />
+        </Col>
+      </Row>
+      <Row>
+        <Col md={{ span: 6, offset: 3 }}>
+          <p>
+            Kochana rodzino! Po ceremonii ślubnej
+            zapraszamy Was do restauracji ArtBistro na ul.
+            Stalowej 52 na obiad, tort i wspólny czas.
+          </p>
+          <p>
+            Nie musicie się martwić dojazdem, wystarczy
+            zamówić taksówkę pod Zamek Królewski.
+          </p>
         </Col>
       </Row>
       <Row className="kruszcz-body center kruszcz-container">
@@ -28,6 +41,27 @@ const Venues = () => {
             text="Studio Bajka"
             date="11 Stycznia 2020"
           />
+        </Col>
+      </Row>
+      <Row>
+        <Col md={{ span: 6, offset: 3 }}>
+          <p>
+            Yes! Bierzemy ślub! Wydaje nam się, że nie trzeba
+            robić szczególnej zapowiedzi tego
+            wydarzenia... niech ta piosenka to zrobi:
+            Będą tańce do białego rana, będzie jedzenie,
+            będzie morze alkoholu.
+          </p>
+          <p>
+            Parking dla ew. nie pijących – trzeba wjechać na
+            teren Instytutu Chemii Przemysłowej, za szlaban.
+          </p>
+          <p>
+            Outfit: elegancko 
+          </p>
+          <p>
+            Prezenty:
+          </p>
         </Col>
       </Row>
     </Container>

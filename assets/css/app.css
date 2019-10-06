@@ -1,7 +1,7 @@
 /* This file is for your main application css. */
 
 @import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,700|Proza+Libre:400,700&display=swap&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Pacifico:400,700|Proza+Libre:400,700&display=swap&subset=latin-ext');
 
 h1 {
   font-size: 3rem;
@@ -16,9 +16,20 @@ body {
 }
 
 .kruszcz-header {
-  font-family: 'Cormorant Garamond', serif;
   color: white;
   text-align: center;
+}
+
+.kruszcz-header h1 {
+  font-family: 'Pacifico', serif;
+  padding-bottom: 1rem;
+  font-size: 10vw;
+} 
+
+@media only screen and (min-width:48em) {
+  .kruszcz-header h1 {
+    font-size: 5rem;
+  } 
 }
 
 .kruszcz-header .row {

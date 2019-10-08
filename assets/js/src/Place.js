@@ -15,7 +15,7 @@ const Place = () => {
             iconSrc="./icons/wedding.svg"
             header="Ceremonia"
             text="Pałac Ślubów w Warszawie"
-            date="10 stycznia 2020 o 14:30"        
+            date="10 stycznia 2020 o 14:30"
           />
         </Col>
       </Row>

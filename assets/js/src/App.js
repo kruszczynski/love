@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-import Index from './Index';
-import Navigation from './Navigation';
-import Footer from './Footer';
+import Index from './Pages/Index';
+import Ceremony from './Pages/Ceremony';
 
-const RSVP = () => <h2>RSPV</h2>;
-const Kolacja = () => <h2>Kolacja</h2>;
+import Footer from './Layout/Footer';
+
+const Obiad = () => <h2>Obiad</h2>;
 const Przyjecie = () => <h2>Przyjecie</h2>;
 
 function App() {
@@ -14,9 +14,9 @@ function App() {
     <>
       <Router>
         <Route path="/" exact component={Index} />
-        <Route path="/kolacja" exact component={Kolacja} />
-        <Route path="/przyjecie" exact component={Przyjecie} />
-        <Route path="/rsvp" exact component={RSVP} />
+        <Route path="/obiad" exact component={Obiad} />
+        <Route path="/party" exact component={Przyjecie} />
+        <Route path="/ceremonia" exact component={Ceremony} />
       </Router>
       <Footer />
     </>

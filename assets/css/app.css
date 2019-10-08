@@ -46,3 +46,15 @@ body {
   width: 10rem;
   margin: 2rem auto;
 }
+
+.crazy-link {
+  color: inherit;
+  transition: color 200ms;
+  text-decoration: none;
+}
+
+.crazy-link:hover {
+  color: darkgray;
+  transition: color 200ms;
+  text-decoration: none;
+}

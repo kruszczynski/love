@@ -1,13 +1,13 @@
 import React from 'react';
 
 import Header from '../Components/Header';
-import CeremonyBody from '../Components/CeremonyBody';
+import DinnerBody from '../Components/DinnerBody';
 
-const Ceremony = () => (
+const Party = () => (
   <>
     <Header backgroundSrc="/images/love2.jpg" />
-    <CeremonyBody />
+    <DinnerBody />
   </>
 );
 
-export default Ceremony;
+export default Party;

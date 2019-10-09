@@ -1,11 +1,11 @@
 import React from 'react';
 
-import IndexHeader from '../Components/IndexHeader';
+import Header from '../Components/Header';
 import Venues from '../Components/Venues';
 
 const Index = () => (
   <>
-    <IndexHeader />
+    <Header backgroundSrc="/images/love1.jpg" />
     <Venues />
   </>
 );

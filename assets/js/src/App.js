@@ -3,19 +3,18 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import Index from './Pages/Index';
 import Ceremony from './Pages/Ceremony';
+import Dinner from './Pages/Dinner';
+import Party from './Pages/Party';
 
 import Footer from './Layout/Footer';
-
-const Obiad = () => <h2>Obiad</h2>;
-const Przyjecie = () => <h2>Przyjecie</h2>;
 
 function App() {
   return (
     <>
       <Router>
         <Route path="/" exact component={Index} />
-        <Route path="/obiad" exact component={Obiad} />
-        <Route path="/party" exact component={Przyjecie} />
+        <Route path="/obiad" exact component={Dinner} />
+        <Route path="/party" exact component={Party} />
         <Route path="/ceremonia" exact component={Ceremony} />
       </Router>
       <Footer />

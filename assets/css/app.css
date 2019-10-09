@@ -32,6 +32,16 @@ body {
   } 
 }
 
+.kruszcz-header a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.kruszcz-header a:hover {
+  color: #e5e5e5;
+  text-decoration: none;
+}
+
 .kruszcz-header .row {
   padding: 36rem 0 4rem;
 }
@@ -54,7 +64,7 @@ body {
 }
 
 .crazy-link:hover {
-  color: darkgray;
+  color: #454545;
   transition: color 200ms;
   text-decoration: none;
 }

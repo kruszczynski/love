@@ -5,7 +5,7 @@ import CeremonyBody from '../Components/CeremonyBody';
 
 const Ceremony = () => (
   <>
-    <Header backgroundSrc="/images/love2.jpg" />
+    <Header backgroundSrc="/images/love1.jpg" />
     <CeremonyBody />
   </>
 );

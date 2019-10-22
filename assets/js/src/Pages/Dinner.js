@@ -5,7 +5,7 @@ import DinnerBody from '../Components/DinnerBody';
 
 const Party = () => (
   <>
-    <Header backgroundSrc="/images/love2.jpg" />
+    <Header backgroundSrc="/images/love1.jpg" />
     <DinnerBody />
   </>
 );

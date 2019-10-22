@@ -16,20 +16,28 @@ body {
 }
 
 .kruszcz-header {
-  color: white;
   text-align: center;
 }
 
 .kruszcz-header h1 {
   font-family: 'Pacifico', serif;
   padding-bottom: 1rem;
+  padding-top: 1rem;
   font-size: 10vw;
 } 
+
+.kruszcz-header h2 {
+  font-size: 1rem;
+}
 
 @media only screen and (min-width:48em) {
   .kruszcz-header h1 {
     font-size: 5rem;
   } 
+
+  .kruszcz-header h2 {
+    font-size: 2rem;
+  }
 }
 
 .kruszcz-header a {
@@ -38,12 +46,8 @@ body {
 }
 
 .kruszcz-header a:hover {
-  color: #e5e5e5;
+  color: #454545;
   text-decoration: none;
-}
-
-.kruszcz-header .row {
-  padding: 36rem 0 4rem;
 }
 
 .kruszcz-body.center {

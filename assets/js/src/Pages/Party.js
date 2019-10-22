@@ -5,7 +5,7 @@ import PartyBody from '../Components/PartyBody';
 
 const Party = () => (
   <>
-    <Header backgroundSrc="/images/love2.jpg" />
+    <Header backgroundSrc="/images/love1.jpg" />
     <PartyBody />
   </>
 );
